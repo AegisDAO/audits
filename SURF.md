@@ -1,6 +1,6 @@
 `SURF.Finance Audit by AegisDAO`
 
-{ [twitter](twitter.com/aegis_eth) | [discord](discord.gg/dEeu8nA) | [telegram](t.me/aegis_public) }
+{ [twitter](https://twitter.com/aegis_eth) | [discord](https://discord.gg/dEeu8nA) | [telegram](https://t.me/aegis_public) }
 
 `[APPROVED FOR RELEASE ON 10/27/2020]`
 
