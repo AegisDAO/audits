@@ -1,8 +1,9 @@
-```
-SURF.Finance Audit by AegisDAO
-{ twitter: aegis_eth | discord: dEeu8nA | telegram: aegis_public }
-[APPROVED FOR RELEASE ON 10/27/2020]
-```
+`SURF.Finance Audit by AegisDAO`
+
+{ [twitter](twitter.com/aegis_eth) | [discord](discord.gg/dEeu8nA) | [telegram](t.me/aegis_public) }
+
+`[APPROVED FOR RELEASE ON 10/27/2020]`
+
 ---
 
 This audit focuses on the deployer's ability to act maliciously and what steps are taken by the code to prevent abuse.
@@ -69,7 +70,7 @@ Most smart contracts are permissioned, which means that there are certain functi
 
 # Concerns
 ## Can the developers steal my tokens?
-No. The permissioned functions do not allow arbitray modification of user balances and the scope of their functionality is limited to critical parameters.
+No. The permissioned functions do not allow arbitrary modification of user balances and the scope of their functionality is limited to critical parameters.
 ## Can the developers mint their own tokens?
 No. The only address allowed to call the `SURF` minting function is the `Tito` contract. The `Tito` contract only mints new tokens under certain parameters, primarily if the total supply is under 10M (the maxium amount of SURF that can exist). Because of this permission hierarchy, users are protected from the developer minting their own tokens because `Tito` will not allow it. Thanks `Tito` 🤙
 ## Can the developers unlock liquidity?
